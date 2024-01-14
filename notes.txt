@@ -16,3 +16,5 @@ langchain app add git+hhttps://github.com/Danselem/langserve_demo.git
 poetry add openai google-generativeai python-dotenv
 
 poetry run langchain serve
+
+sudo lsof -i :8000
